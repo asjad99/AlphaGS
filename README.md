@@ -9,12 +9,17 @@ This paper studies the problem of strategic resilience, and provides the princip
 
 A prototype is made where two different types of search are implemented (MINIMAX search and Monte Carlo Tree Search), and execution times for the search are analysed. The paper looks at the utilisation of mainly two algorithms, Min-Max and Monte Carlo for optimising choices in a tree. The tree corresponds to goal model and it is argued that this imitate how businesses think when making competitor analysis and the corresponding planning.
 
-read out paper for more details:  * add link * 
+read the blog post for more details: https://www.asjadk.io/strategic_resilience/ 
 
-### Prerequisites
 
-This Projet is a prototype and relies on SAT Solver(found in logic.py) and Monte-Carlo Search(mcts.py). Both Librbaries are included and can be replaced with other state of the Art implementations. 
+### Project Structure
 
+This Project is a prototype with following structure: 
+
+  - SAT Solver(found in logic.py) to perform  game tree search to arrive at the decision.
+  - Monte-Carlo Search(mcts.py). Both Librbaries are included and can be replaced with other state of the Art implementations. 
+  - action_effect_table.py and condition_action_rules.py - We encode the current state of business and the environment its operating in using assertions in the form of of truth-functional assertions and condition-actions rules representing the current capabilities(of the business).
+  - 
 ### Usage
 ```
 Python main.py
