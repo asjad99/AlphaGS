@@ -1,4 +1,4 @@
-## Alpha_GS: A Framework for decision making in adversarial settings to acheive strategic resilience 
+## A Framework for decision making in adversarial settings to acheive strategic resilience 
 
 
 ### About the Project: 
@@ -9,3 +9,6 @@ This paper studies the problem of strategic resilience, and provides the princip
 
 A prototype is made where two different types of search are implemented (MINIMAX search and Monte Carlo Tree Search), and execution times for the search are analysed. The paper looks at the utilisation of mainly two algorithms, Min-Max and Monte Carlo for optimising choices in a tree. The tree corresponds to goal model and it is argued that this imitate how businesses think when making competitor analysis and the corresponding planning.
 
+## Usage
+
+> main.py
