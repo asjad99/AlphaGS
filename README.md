@@ -2,7 +2,7 @@
 
 
 ### About the Project: 
-This paper studies the problem of strategic resilience, and provides the principled computational underpinnings of the reasoning that businesses should engage in to make critical strategic choices. We propose an approach to semi-automatically assist businesses with strategic decision making, the argument being that such decision making can be made more resilient by basing the analysis on organizational goal models in combination with game tree search.  We asssume  the presence of adversarial forces in decision making and we cast decision making problem as game playing (using game tree search) which is an interesting and a novel take on decision support. 
+we study the problem of strategic resilience, and providea the principled computational underpinnings of the reasoning that businesses should engage in to make critical strategic choices. We propose an approach to semi-automatically assist businesses with strategic decision making, the argument being that such decision making can be made more resilient by basing the analysis on organizational goal models in combination with game tree search.  We asssume  the presence of adversarial forces in decision making and we cast decision making problem as game playing (using game tree search) which is an interesting and a novel take on decision support. 
 
 (i) The proposed framework considers both strategic resilience (the ability to recover quickly from difficulties) and robustness (the ability to withstand or overcome adverse conditions).
 (ii) The experimental evaluation verifies the effectiveness of the algorithms in which we show automatic decision support based on goal hierarchies that have OR refinement relations by using MINIMAX and Monte Carlo Tree Search.
